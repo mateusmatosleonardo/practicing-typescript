@@ -1,2 +1,7 @@
-var mensagem = "Hello, Mateus :)";
-console.log(mensagem);
+/* type string */
+var nome = "Mateus :)";
+/* type number */
+var idade;
+idade = 21;
+console.log(nome);
+console.log(idade);
