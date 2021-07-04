@@ -3,6 +3,7 @@
 class Person{
 
     nome:string
+    idade:number
 
     constructor(nome:string){
         this.nome = nome;
@@ -12,12 +13,13 @@ class Person{
     printName(){
         return this.nome;
     }
+
 }
 
 var personOne = new Person("Mateus");
 
-console.log(personOne.printName());
 
+console.log(personOne.printName());
 
 /*
 var personOne = new Person("Mateus");
