@@ -17,6 +17,7 @@ class Person{
 }
 
 /* extends herda todos os métodos e parâmetros (atributos) */
+/*
 class user extends Person{
     constructor(nome:string){
         super(nome);
@@ -29,7 +30,7 @@ class user extends Person{
 
 var userOne = new user("Mateus");
 console.log(userOne.sum(25, 30));
-
+*/
 
 /*
 var personOne = new Person("Mateus");
