@@ -16,10 +16,16 @@ class Person{
 
 }
 
-var personOne = new Person("Mateus");
+/* extends herda todos os métodos e parâmetros (atributos) */
+class user extends Person{
+    constructor(nome:string){
+        super(nome);
+    }
+}
 
+var userOne = new user("Mateus");
 
-console.log(personOne.printName());
+console.log(userOne.printName());
 
 /*
 var personOne = new Person("Mateus");
