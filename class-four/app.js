@@ -30,10 +30,13 @@ var user = /** @class */ (function (_super) {
     function user(nome) {
         return _super.call(this, nome) || this;
     }
+    user.prototype.sum = function (n1, n2) {
+        return n1 + n2;
+    };
     return user;
 }(Person));
 var userOne = new user("Mateus");
-console.log(userOne.printName());
+console.log(userOne.sum(25, 30));
 /*
 var personOne = new Person("Mateus");
 
