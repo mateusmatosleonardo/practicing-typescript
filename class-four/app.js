@@ -9,6 +9,8 @@ var Person = /** @class */ (function () {
     };
     return Person;
 }());
+var personOne = new Person("Mateus");
+console.log(personOne.printName());
 /* extends herda todos os métodos e parâmetros (atributos) */
 /*
 class user extends Person{
